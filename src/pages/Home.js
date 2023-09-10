@@ -36,8 +36,7 @@ function Home() {
           <li className="item">
             <h2>Sys engineer</h2>
             <span>
-              Ansible, Docker, Network monitoring (Icinga 2), Linux system
-              administration
+              Linux system administration, Bash script, Ansible, Docker Network monitoring (Icinga 2), Virtualization (Vmware)
             </span>
           </li>
         </ol>
