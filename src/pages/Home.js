@@ -10,7 +10,9 @@ function Home() {
       <div className="about">
         <h2> Hi, My Name is Samo</h2>
         <div className="prompt">
-          <p>A software developer with a passion for learning and creating.</p>
+          <p>
+            A software developer with a passion for learning and creating. :)
+          </p>
           <a href="https://si.linkedin.com/in/samo-goljat-62b798167">
             <LinkedInIcon />
           </a>
