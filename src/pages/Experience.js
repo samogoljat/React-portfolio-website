@@ -13,46 +13,29 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2010 - 2014"
+          date="2009 - 2013"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Random High School, Random Place, Random State
+            Secondary school of economics Maribor
           </h3>
-          <p> High School Diploma</p>
+          <p>High school diploma</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2014 - 2018"
+          date="2013 - 2016"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            My Cool University, Vancouver, British Columbia
+            Faculty of Electrical Engineering and Computer Science
           </h3>
-
           <h4 className="vertical-timeline-element-subtitle">
             Bachelor's Degree
           </h4>
-
-          <p> Computer Science</p>
+          <p>Mechatronics</p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2018 - 2020"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Back End Engineer - Google
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
-          </h4>
-          <p>Developed the backend infrastructure for 3 projects.</p>
-        </VerticalTimelineElement>
-
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2020 - present"
@@ -60,14 +43,91 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Full Stack Engineer - Twitch
+            Junior Project Manager - Henkel d.o.o.
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Maribor, Slovenia
           </h4>
           <p>
-            Helped the team launch 2 major features by working both in the front
-            end and back end.
+            Industrial engineer related work, excel spreads, buying assets,
+            integrating new technological equipment in production.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="2017 - 2019"
+          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Faculty of Mechanical Engineering
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Master's Degree
+          </h4>
+          <p>Industrial engineering</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2019 - 2020"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">System integrator</h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Maribor, Slovenia
+          </h4>
+          <p>Mounting and connecting security cameras and designing network</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2020 - 2020"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            CAD Designer - RTC d.o.o.
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Maribor, Slovenia
+          </h4>
+          <p>Cad designing in PTC Creo</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2020 - 2021"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Researcher - Faculty of mechanical engineering in Maribor
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Maribor, Slovenia
+          </h4>
+          <p>
+            R&D on the field of hydraulic systems, fluids and automatic
+            Programming in C#
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2021 - present"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            System engineer - COBISS/IZUM - Institute of information science
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Maribor, Slovenia
+          </h4>
+          <p>
+            Linux system administration Bash script Network monitoring
+            Virtualization Containerization PostgreSQL, MariaDB Wordpress Devops
+            related work HTML, CSS, Javascript, Typescript, React, JSON, Python,
+            SQL.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

@@ -30,13 +30,14 @@ function Home() {
           <li className="item">
             <h2>Languages</h2>
             <span>
-              JavaScript, Java, Python, TypeScript, Bash, Ansible (Yaml)
+              JavaScript, Java, Python, TypeScript, Bash, Ansible (Yaml).
             </span>
           </li>
           <li className="item">
             <h2>Sys engineer</h2>
             <span>
-              Linux system administration, Bash script, Ansible, Docker Network monitoring (Icinga 2), Virtualization (Vmware)
+              Linux system administration, Bash script, Ansible, Docker Network
+              monitoring (Icinga 2), Virtualization (Vmware).
             </span>
           </li>
         </ol>
