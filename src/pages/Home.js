@@ -3,12 +3,14 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import myImage from "../assets/me/me-modified.png";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
         <h2> Hi, My Name is Samo</h2>
+        <img src={myImage} alt="Samo's Image" className="profile-image" />
         <div className="prompt">
           <p>
             A software developer with a passion for learning and creating. :)

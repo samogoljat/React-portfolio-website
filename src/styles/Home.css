@@ -17,7 +17,37 @@
   color: #f0f0f0;
 }
 
-.about h2 {
+.profile-image {
+  max-width: 200px; /* Set the maximum width as per your requirement */
+  height: auto; /* This ensures the image maintains its aspect ratio */
+}
+Adjust
+  the
+  max-width
+  value
+  as
+  needed
+  to
+  control
+  the
+  size
+  of
+  your
+  image.
+  This
+  will
+  prevent
+  your
+  image
+  from
+  being
+  too
+  large
+  on
+  the
+  page.
+  .about
+  h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
   color: #e9d35b;
