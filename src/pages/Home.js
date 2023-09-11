@@ -10,7 +10,7 @@ function Home() {
     <div className="home">
       <div className="about">
         <h2> Hi, My Name is Samo</h2>
-        <img src={myImage} alt="Samo's Image" className="profile-image" />
+        <img src={myImage} alt="Samo" className="profile-image" />
         <div className="prompt">
           <p>
             A software developer with a passion for learning and creating. :)
@@ -40,14 +40,14 @@ function Home() {
           <li className="item">
             <h2>Languages</h2>
             <span>
-              JavaScript, Java, Python, TypeScript, Bash, Ansible (Yaml).
+              JavaScript, Python, TypeScript, Bash, Ansible (Yaml).
             </span>
           </li>
           <li className="item">
-            <h2>Sys engineer</h2>
+            <h2>Devops</h2>
             <span>
-              Linux system administration, Bash script, Ansible, Docker Network
-              monitoring (Icinga 2), Virtualization (Vmware).
+              Linux, Bash, Ansible, Docker, Network
+              monitoring, Virtualization (Vmware), PostgreSQL, MariaDB, Wordpress administration, Apache, Nginx.
             </span>
           </li>
         </ol>

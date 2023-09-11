@@ -77,7 +77,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Maribor, Slovenia
           </h4>
-          <p>Mounting and connecting security cameras and designing network</p>
+          <p>Mounting and connecting security cameras and designing network.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -92,7 +92,7 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Maribor, Slovenia
           </h4>
-          <p>Cad designing in PTC Creo</p>
+          <p>Cad designing in PTC Creo.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -108,7 +108,7 @@ function Experience() {
           </h4>
           <p>
             R&D on the field of hydraulic systems, fluids and automatic
-            Programming in C#
+            Programming in C#.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
