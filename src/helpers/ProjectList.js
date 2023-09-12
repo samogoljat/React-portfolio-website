@@ -7,6 +7,7 @@ import Proj6 from "../assets/ubl/ubl.png";
 import Proj7 from "../assets/wordpress/rtc_si.png";
 import Proj8 from "../assets/wordpress/boljse_poslovanje.png";
 import Proj9 from "../assets/wordpress/digital_marketing_static.png";
+import Proj10 from "../assets/wordpress/react_poster.png";
 
 export const ProjectList = [
   {
@@ -53,5 +54,10 @@ export const ProjectList = [
     name: "Static Digital marketing website",
     image: Proj9,
     skills: "HTML, CSS, Javascript",
+  },
+  {
+    name: "React poster Frontent + Backend",
+    image: Proj10,
+    skills: "HTML, CSS, Javascript, React, NodeJS",
   },
 ];
