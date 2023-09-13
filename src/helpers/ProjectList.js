@@ -8,6 +8,8 @@ import Proj7 from "../assets/wordpress/rtc_si.png";
 import Proj8 from "../assets/wordpress/boljse_poslovanje.png";
 import Proj9 from "../assets/wordpress/digital_marketing_static.png";
 import Proj10 from "../assets/wordpress/react_poster.png";
+import Proj11 from "../assets/wordpress/laoh.png";
+import Proj12 from "../assets/wordpress/website_output_servers.png";
 
 export const ProjectList = [
   {
@@ -16,8 +18,13 @@ export const ProjectList = [
     skills: "Wordpress, PHP",
   },
   {
-    name: "TYPO3 Website for Faculty of Mechanical Engineering Maribor",
+    name: "Wordpress Business Website",
     image: Proj7,
+    skills: "Wordpress, PHP",
+  },
+  {
+    name: "TYPO3 Website for Faculty of Mechanical Engineering Maribor",
+    image: Proj11,
     skills: "TYPO3",
   },
   {
@@ -59,5 +66,10 @@ export const ProjectList = [
     name: "React poster Frontent + Backend",
     image: Proj10,
     skills: "HTML, CSS, Javascript, React, NodeJS",
+  },
+  {
+    name: "Static website for outputing server information",
+    image: Proj12,
+    skills: "HTML, CSS, Javascript, JSON, Bash",
   },
 ];
