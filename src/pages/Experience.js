@@ -37,23 +37,6 @@ function Experience() {
           <p>Mechatronics</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2020 - present"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Junior Project Manager - Henkel d.o.o.
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Maribor, Slovenia
-          </h4>
-          <p>
-            Industrial engineer related work, excel spreads, buying assets,
-            integrating new technological equipment in production.
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2017 - 2019"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
@@ -66,18 +49,6 @@ function Experience() {
             Master's Degree
           </h4>
           <p>Industrial engineering</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2019 - 2020"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">System integrator</h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Maribor, Slovenia
-          </h4>
-          <p>Mounting and connecting security cameras and designing network.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
