@@ -31,23 +31,25 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2> Front-End</h2>
-            <span>ReactJS, HTML, CSS, BootStrap, Javascript, JSON.</span>
+            <span>
+              HTML, CSS, BootStrap, Javascript, React, Typescript, JSON.
+            </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>PostgreSQL, MariaDB, FireBase.</span>
-          </li>
-          <li className="item">
-            <h2>Languages</h2>
             <span>
-              JavaScript, Python, TypeScript, Bash, Ansible (Yaml).
+              Bash, Python, basics of Java/C#/pgSQL, NodeJS, PostgreSQL,
+              MariaDB, MongoDB.
             </span>
           </li>
           <li className="item">
             <h2>Devops</h2>
             <span>
-              Linux, Bash, Ansible, Docker, Network
-              monitoring, Virtualization (Vmware), PostgreSQL, MariaDB, Wordpress administration, Apache, Nginx.
+              Network monitoring (Icinga2), Linux system administration, Bash,
+              Ansible (YAML - playbooks), Docker, Virtualization (Vmware
+              VSphere, Exsi), PostgreSQL, MariaDB, Wordpress administration,
+              Apache, Nginx, basics of Networking (DNS, protocols, Ipv4, Ipv6,
+              Firewall,topology).
             </span>
           </li>
         </ol>
