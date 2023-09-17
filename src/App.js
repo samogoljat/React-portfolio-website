@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
@@ -9,9 +9,8 @@ import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
 
 function App() {
-
   useEffect(() => {
-    document.title = "Fitness Shop";
+    document.title = "Portfolio website";
   }, []);
 
   return (
