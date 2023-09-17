@@ -13,7 +13,9 @@
   font-size: 35px;
 }
 .project img {
-  width: 600px;
+  width: 50vw;           /* Setting the width to 40% of the viewport width */
+  max-width: 800px;      /* Setting a max width to avoid an overly large image on wide screens */
+  min-width: 300px;      /* Setting a min width to avoid an overly small image on narrow screens */
   border-radius: 10px;
 }
 

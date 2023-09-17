@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/ProjectDisplay.css";
 
 function ProjectDisplay() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { id } = useParams();
   const project = ProjectList[id];
   return (
