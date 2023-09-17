@@ -34,11 +34,11 @@
   margin-bottom: 40px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
-  transition: all 0.1s ease-in; 
+  transition: all 0.1s ease-in;
 }
 
 .projectItem:hover {
-  transform: scale(1.15); /* Slightly scale up the item */
+  transform: scale(1.05); /* Slightly scale up the item */
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
   filter: brightness(1.1); /* Increase the brightness */
   transition: all 0.1s ease-in; /* Apply transition to all properties for smoothness */
