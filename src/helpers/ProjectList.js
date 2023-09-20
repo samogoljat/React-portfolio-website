@@ -79,11 +79,5 @@ export const ProjectList = [
     image: Proj11,
     skills: "TYPO3",
   },
-  {
-    name: "Wordpress Website about Yt channel",
-    image: Proj2,
-    skills: "Wordpress, PHP",
-  },
-
 
 ];
