@@ -12,17 +12,25 @@ import Proj11 from "../assets/wordpress/laoh.png";
 import Proj12 from "../assets/wordpress/website_output_servers.png";
 import Proj13 from "../assets/Icinga/icinga.png";
 import Proj14 from "../assets/moodle/moodle.png";
+import Proj15 from "../assets/fitness/shop.png";
 
 export const ProjectList = [
   {
     name: "Established Network monitoring 500 host / 7000 services - Icinga2",
     image: Proj13,
-    skills: "Linux system administration, Bash, Ansible, Html, CSS, Javascript, Json, Python, Perl, Apache"
+    skills:
+      "Linux system administration, Bash, Ansible, Html, CSS, Javascript, Json, Python, Perl, Apache",
+  },
+  {
+    name: "Demo React Fitness Website Project with fetching data from MongoDB Compass OR MongoDB Atlas (Cloud)",
+    image: Proj15,
+    skills:
+      "HTML, CSS, Javascript, React, NodeJS, Mongoose, Express, MongoDB Compass & Atlas (Cloud)",
   },
   {
     name: "Establishing moodle for later configuration",
     image: Proj14,
-    skills: "Linux system administration, Apache"
+    skills: "Linux system administration, Apache",
   },
   {
     name: "Static Website for dynamic output JSON data from Icinga2 api",
@@ -79,5 +87,4 @@ export const ProjectList = [
     image: Proj11,
     skills: "TYPO3",
   },
-
 ];
