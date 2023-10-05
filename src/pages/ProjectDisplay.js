@@ -13,12 +13,17 @@ function ProjectDisplay() {
   const project = ProjectList[id];
   return (
     <div className="project">
-      <h1> {project.name}</h1>
-      <img src={project.image} />
+      <h1>{project.name}</h1>
+      <img src={project.image} alt={project.name} />
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <a href="https://github.com/samogoljat">
+      {project.url && (
+        <p>
+          <b>Url:</b> <a href={project.url} target="_blank" rel="noopener noreferrer">{project.url}</a>
+        </p>
+      )}
+      <a href="https://github.com/samogoljat" target="_blank" rel="noopener noreferrer">
         <GitHubIcon />
       </a>
     </div>

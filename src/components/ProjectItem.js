@@ -1,23 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-function ProjectItem({ image, name, url }) {
-  const navigateToProject = () => {
-    // Check if url is defined and is a non-empty string.
-    if(url && typeof url === 'string' && url.trim() !== "") {
-      window.location.href = url;
-    } else {
-      console.error(`Invalid URL for project: ${name}`);
-      // Handle invalid URL case (e.g., alert or a message to user)
-    }
-  };
-
+function ProjectItem({ image, name, id }) {
+  const navigate = useNavigate();
   return (
     <div
       className="projectItem"
-      onClick={navigateToProject}
+      onClick={() => {
+        navigate("/project/" + id);
+      }}
     >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
-      <h1>{name}</h1>
+      <h1> {name} </h1>
     </div>
   );
 }

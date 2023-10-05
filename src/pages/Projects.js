@@ -1,23 +1,22 @@
-import React from 'react';
+import React from "react";
 import ProjectItem from "../components/ProjectItem";
 import { ProjectList } from "../helpers/ProjectList";
 
-const Projects = () => {
+import "../styles/Projects.css";
+
+function Projects() {
   return (
     <div className="projects">
-      <h2 className="projectTitle">Projects</h2>
+      <h1 className="projectTitle"> My Projects</h1>
       <div className="projectList">
-        {ProjectList.map((project, index) => (
-          <ProjectItem
-            key={index}
-            image={project.image}
-            name={project.name}
-            url={project.url}
-          />
-        ))}
+        {ProjectList.map((project, idx) => {
+          return (
+            <ProjectItem id={idx} name={project.name} image={project.image} url={project.url} />
+          );
+        })}
       </div>
     </div>
   );
-};
+}
 
 export default Projects;
