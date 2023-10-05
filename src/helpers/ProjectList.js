@@ -26,6 +26,7 @@ export const ProjectList = [
     image: Proj15,
     skills:
       "HTML, CSS, Javascript, React, NodeJS, Mongoose, Express, MongoDB Compass & Atlas (Cloud)",
+    url: "test"
   },
   {
     name: "Establishing moodle for later configuration",
